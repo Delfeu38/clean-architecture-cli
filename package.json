@@ -1,0 +1,20 @@
+{
+    "name": "clean-architecture-cli",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "install": "npm i -g ../javascript-cli",
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "ca": "index.js"
+    },
+    "author": "Thomas Delferriere",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^9.1.1"
+    }
+}
